@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgba(6, 19, 31, 1);
+    /* background-image: url('bgimg.jpg') cover; */
+}
+
+@media screen and (max-width: 1024px) {
+    #hidingNav {
+        display: none;
+        /* visibility: hidden; */
+    }
+    #footerHide {
+        display: none;
+        /* visibility: hidden; */
+    }
+}
